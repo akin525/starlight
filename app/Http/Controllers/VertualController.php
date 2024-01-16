@@ -19,11 +19,11 @@ class VertualController
 {
     public function vertual(Request $request)
     {
-        if (Auth::user()->address==null){
-            Alert::warning('Update', 'Please Kindly update Your Account And Generate Again');
-            return redirect('myaccount');
-
-        }
+//        if (Auth::user()->address==null){
+//            Alert::warning('Update', 'Please Kindly update Your Account And Generate Again');
+//            return redirect('myaccount');
+//
+//        }
         if (Auth::check()) {
             $user = User::find($request->user()->id);
             $username=$user->username.rand(1111, 9999);
