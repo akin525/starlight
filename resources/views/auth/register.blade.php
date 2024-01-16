@@ -9,7 +9,7 @@
                             <h4 class="card-title mt-5">Create your account</h4>
                         </div>
                         <form method="post" name="myform" class="signin_validate row g-3"
-                              action="{{ route('register') }}"">
+                              action="{{ route('register') }}">
                             @csrf
                             <x-jet-validation-errors class="alert alert-danger" />
                             <div class="col-12">
@@ -20,21 +20,21 @@
                                 <label class="form-label">Full Name</label>
                                 <input type="text" class="form-control" placeholder="Name" name="name"/>
                             </div>
-                        <div class="col-12">
-                                <label class="form-label">Date Of Birth</label>
-                                <input type="date" class="form-control"  name="dob"/>
-                            </div>
-                        <div class="col-12">
-                                <label class="form-label">Gender</label>
-                                <select class="form-control"  name="gender">
-                                    <option value="Male">Male</option>
-                                    <option value="Female">Female</option>
-                                </select>
-                            </div>
-                        <div class="col-12">
-                            <label class="form-label">Address</label>
-                            <input type="text" class="form-control"  name="address"/>
-                        </div>
+{{--                        <div class="col-12">--}}
+{{--                                <label class="form-label">Date Of Birth</label>--}}
+{{--                                <input type="date" class="form-control"  name="dob"/>--}}
+{{--                            </div>--}}
+{{--                        <div class="col-12">--}}
+{{--                                <label class="form-label">Gender</label>--}}
+{{--                                <select class="form-control"  name="gender">--}}
+{{--                                    <option value="Male">Male</option>--}}
+{{--                                    <option value="Female">Female</option>--}}
+{{--                                </select>--}}
+{{--                            </div>--}}
+{{--                        <div class="col-12">--}}
+{{--                            <label class="form-label">Address</label>--}}
+{{--                            <input type="text" class="form-control"  name="address"/>--}}
+{{--                        </div>--}}
                         <div class="col-12">
                                 <label class="form-label">Phone No</label>
                                 <input type="number" class="form-control" placeholder="Phone Number" name="number"/>
