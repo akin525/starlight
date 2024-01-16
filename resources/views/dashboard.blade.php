@@ -242,7 +242,7 @@
                                             <div>
                                                 <center>
                                                     <a href="#">
-                                                        <img width="200" src="{{asset("star.png")}}"  alt="">
+                                                        <img width="200" src="{{asset("star.jpeg")}}"  alt="">
                                                     </a>
                                                 </center>
                                             </div>
