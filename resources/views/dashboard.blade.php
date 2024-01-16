@@ -231,7 +231,7 @@
                                                     @if(Auth::user()->bank==NULL)
                                                         <li class='text-white'><h6 class="text-white"><b>Bank: Wema</b></h6></li>
                                                     @else
-                                                        <li class='text-white'><h6 class="text-white"><b>Bank: {{$all->bank}}</b></h6></li>
+                                                        <li class='text-white'><h6 class="text-white"><b>Bank: {{Auth::user()->bank}}</b></h6></li>
                                                     @endif
 {{--                                                    <br>--}}
 {{--                                                    <li class='text-white'><h6 class="text-white"><b>Note: All virtual funding are being set automatically</b></h6></li>--}}
