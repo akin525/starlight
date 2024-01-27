@@ -40,7 +40,7 @@
 
                                         <td> {{$seller['network']}} </td>
                                         <td> {{$seller['plan']}}</td>
-                                        <td> {{$seller['ramount']}}</td>
+                                        <td> {{$seller['api_amount']}}</td>
                                     <td>@if($seller['status']=="1")<h6 class="btn-success">Active</h6>@else<h6
                                                 class="btn-warning">
                                                 Not-Active</h6> @endif
